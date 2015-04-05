@@ -44,11 +44,8 @@ class UserServiceJasmineSpec extends JasmineSpec with Matchers {
             val user = o.asInstanceOf[User]
             new User(user.getUsername, user.getPassword)
           }
-
           override def delete(o: scala.Any): AnyRef = ???
-
           override def create(o: scala.Any): AnyRef = ???
-
           override def query(o: scala.Any): util.List[AnyRef] = ???
         }
       }

@@ -30,24 +30,19 @@ public class UserServiceTest {
     }
 
     public class ValidUsers {
-
         @Before
         public void setup() {
             userService.authenticator.databaseFacade = new DatabaseFacade() {
-
                 public Object fetch(Object o) {
                     User user = (User) o;
                     return new User(user.getUsername(), user.getPassword());
                 }
-
                 public Object create(Object o) {
                     return null;
                 }
-
                 public Object delete(Object o) {
                     return null;
                 }
-
                 public List<Object> query(Object o) {
                     return null;
                 }
@@ -62,25 +57,20 @@ public class UserServiceTest {
         }
     }
 
-
     public class InvalidUsers {
 
         @Before
         public void setup() {
             userService.authenticator.databaseFacade = new DatabaseFacade() {
-
                 public Object fetch(Object o) {
                     return null;
                 }
-
                 public Object create(Object o) {
                     return null;
                 }
-
                 public Object delete(Object o) {
                     return null;
                 }
-
                 public List<Object> query(Object o) {
                     return null;
                 }
