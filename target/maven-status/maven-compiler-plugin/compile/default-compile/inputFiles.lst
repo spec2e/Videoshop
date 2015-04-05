@@ -1,0 +1,8 @@
+/Users/zapp/development/Videoshop/src/main/java/shop/user/boundary/UserAuthenticator.java
+/Users/zapp/development/Videoshop/src/main/java/shop/user/entity/User.java
+/Users/zapp/development/Videoshop/src/main/java/shop/user/boundary/UserService.java
+/Users/zapp/development/Videoshop/src/main/java/shop/video/boundary/VideoService.java
+/Users/zapp/development/Videoshop/src/main/java/shop/video/entity/Video.java
+/Users/zapp/development/Videoshop/src/main/java/shop/common/DatabaseFacade.java
+/Users/zapp/development/Videoshop/src/main/java/shop/payment/boundary/PaymentService.java
+/Users/zapp/development/Videoshop/src/main/java/shop/video/boundary/VideoAdministrator.java
