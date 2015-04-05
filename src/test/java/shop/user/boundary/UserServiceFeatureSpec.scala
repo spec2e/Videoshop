@@ -22,5 +22,4 @@ class UserServiceFeatureSpec extends FeatureSpec with GivenWhenThen {
       assert(user == null)
     }
   }
-
 }
