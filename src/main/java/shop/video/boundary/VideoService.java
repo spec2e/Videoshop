@@ -22,7 +22,9 @@ public class VideoService {
     }
 
     public Video createVideo(Video video) {
-        return videoAdministrator.createVideo(video);
+        if(video != null)
+            return videoAdministrator.createVideo(video);
+        return null;
     }
 
     public List<Video> getRentedVideos(User loggedInUser) {
